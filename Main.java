@@ -20,10 +20,6 @@ public class Main {
     "/Users/laurencronin/Downloads/jpgs/robot7.png"
     };
 
-    private static String[] npc_files = {"/Users/laurencronin/Downloads/jpgs/rob1.png",
-                                        "/Users/laurencronin/Downloads/jpgs/rob2.png",
-                                        "/Users/laurencronin/Downloads/jpgs/rob3.png"};
-
     private static String[] hurdle_file = {"/Users/laurencronin/Downloads/jpgs/hurdle.png",
     "/Users/laurencronin/Downloads/jpgs/hurdle2.png",
     "/Users/laurencronin/Downloads/jpgs/hurdle3.png",
@@ -32,7 +28,6 @@ public class Main {
     "/Users/laurencronin/Downloads/jpgs/hurdle6.png"};
     private static Timer mainTimer;
     private static Player character;
-    private static NPC npc;
     private static movingBackground background;
     private static Button[] buttonList = new Button[12];
     private static JFrame frame;
